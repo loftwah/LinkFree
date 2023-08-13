@@ -1,11 +1,10 @@
 "use client";
 
 import { BsTwitter, BsFacebook, BsLinkedin } from "react-icons/bs";
-import { AiOutlineInstagram, AiOutlineReddit } from "react-icons/ai";
+import { AiOutlineReddit } from "react-icons/ai";
 import { FaPinterestP, FaWhatsapp, FaTelegram } from "react-icons/fa";
 
 export const socials = [
-  // Existing entries
   {
     SOCIAL_SHARE_LINK: "https://twitter.com/intent/tweet?url=",
     Icon: BsTwitter,
@@ -19,12 +18,6 @@ export const socials = [
   {
     SOCIAL_SHARE_LINK: "https://www.linkedin.com/shareArticle?mini=true&url=",
     Icon: BsLinkedin,
-    includeText: false,
-  },
-  // New entries
-  {
-    SOCIAL_SHARE_LINK: "https://www.instagram.com/",
-    Icon: AiOutlineInstagram,
     includeText: false,
   },
   {
